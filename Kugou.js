@@ -8,7 +8,7 @@
 群1077223830
 *******************************
 [rewrite_local]
-^http[s]?:\/\/gateway.kugou.com.+$ url script-response-body kugou.js
+^http[s]?:\/\/gateway.kugou.com.+$ url script-response-body https://raw.githubusercontent.com/DCubedSigma/Sigma/main/Kugou.js
 [mitm] 
 hostname = *.kugou.*
 *******************************
